@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:linear-gradient(to right,#02aab0,#00cdac);
+	animation-name:color;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+}
+
+
+.table-responsive{
+	margin-top:30px;
+}
+
+@keyframes color{
+	0%{
+		background:linear-gradient(to right,#02aab0,#00cdac);
+	}
+	20%{
+		background:linear-gradient(to right,#d66d75,#e29587);
+	}
+	50%
+	{
+		background:linear-gradient(to right,#43cea2,#185a9d);
+	}
+	80%
+	{
+		background:linear-gradient(to right,#56ab2f,#a8e063);
+ 
+	}
+	100%{
+		background:linear-gradient(to right,#ff512f,#dd2476);
+	}
+}
